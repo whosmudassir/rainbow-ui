@@ -98,6 +98,20 @@
   padding-top: 25px;
 }
 
+/* main page */
+.nav-bar {
+  background-color: antiquewhite;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+/* .hamburger-icon{
+  display: none;
+} */
+
 /* responsive */
 
 @media (max-width: 1024px) {
@@ -140,5 +154,10 @@
 
   .primary-btn-text {
     font-size: 14px;
+  }
+
+  /* main */
+  .list-box {
+    display: none;
   }
 }
