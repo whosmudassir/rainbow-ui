@@ -99,20 +99,18 @@
 }
 
 /* main page */
-.nav-bar{
+.nav-bar {
   background-color: antiquewhite;
-padding:10px;
-display: flex;
-flex-direction: row ;
-justify-content: space-between;
-align-items: stretch;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
 }
 
 /* .hamburger-icon{
   display: none;
 } */
-
-
 
 /* responsive */
 
@@ -156,5 +154,10 @@ align-items: stretch;
 
   .primary-btn-text {
     font-size: 14px;
+  }
+
+  /* main */
+  .list-box {
+    display: none;
   }
 }
