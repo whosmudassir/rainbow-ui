@@ -108,6 +108,12 @@
   align-items: stretch;
 }
 
+.list-box {
+  width: 200px;
+  height: 100vh;
+  overflow: auto;
+}
+
 /* .hamburger-icon{
   display: none;
 } */
@@ -157,7 +163,15 @@
   }
 
   /* main */
-  .list-box {
+  .list-box-close {
     display: none;
   }
+
+  .list-box-open {
+    display: flex;
+  }
+
+  .list-box {
+    width: 100%;
+   height: 100%;
 }
