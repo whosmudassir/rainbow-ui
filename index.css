@@ -111,6 +111,9 @@
 .nav-bar {
   padding: 16px;
   display: flex;
+  position: fixed;
+  flex: 1;
+  width: 100%;
   flex-direction: row;
   justify-content: space-between;
   align-items: stretch;
@@ -121,25 +124,30 @@
 
 .list-box {
   width: 200px;
-  height: 100%;
+  height: 100vh;
   overflow: auto;
   border-right: 5px;
   border-right-color: #303030;
-  padding: 20px;
 }
 
 .list-item-title {
   font-family: Roboto-Medium;
-  padding-bottom: 6px;
+  padding: 10px;
+  padding-left: 20px;
 }
 
 .list-item {
   font-family: Roboto-Light;
-  padding-bottom: 8px;
+  padding: 10px;
+  padding-left: 20px;
+}
+.list-item:hover {
+  background-color: #303030;
 }
 
 .category-divider {
   margin-bottom: 10px;
+  /* margin-top: 10px; */
 }
 
 .hamburger-icon {
