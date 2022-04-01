@@ -70,7 +70,6 @@
   font-size: 18px;
 }
 
-
 .box {
   background-color: rgb(255, 255, 255);
   /* opacity: 98%; */
@@ -102,26 +101,26 @@
 }
 
 /* main page */
-.main-body{
- display:flex;
-
-
-
-
- flex-direction:row; position:absolute"
+.main-body {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
 }
 .heading-medium {
   font-family: Roboto-Bold;
-  font-size: 20px;
+  font-size: 22px;
 }
 .rainbow-logo {
-  font-size: 24px;
+  font-size: 26px;
   padding-right: 5px;
 }
 .nav-bar {
   padding: 16px;
+  padding-left: 30px;
   display: flex;
   position: fixed;
+  overflow: hidden;
+  top: 0;
   background-color: #ffff;
   flex: 1;
   width: 100%;
@@ -134,26 +133,28 @@
 }
 
 .list-box {
-  width: 200px;
-  height: 100vh;
+  width: 250px;
+  height: 100%;
   overflow: auto;
-  border-right: 5px;
-  border-right-color: #303030;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: rgb(223, 227, 230);
 }
 
 .list-item-title {
   font-family: Roboto-Medium;
   padding: 10px;
-  padding-left: 20px;
+  padding-left: 40px;
 }
 
 .list-item {
   font-family: Roboto-Light;
   padding: 10px;
-  padding-left: 20px;
+  padding-left: 40px;
 }
 .list-item:hover {
-  background-color: #303030;
+  background-color: rgba(112, 37, 177, 0.2);
+  cursor: pointer;
 }
 
 .category-divider {
