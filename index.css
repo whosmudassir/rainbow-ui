@@ -115,8 +115,8 @@
   padding-right: 5px;
 }
 .nav-bar {
-  padding: 16px;
-  padding-left: 30px;
+  padding: 16px 30px;
+
   display: flex;
   position: fixed;
   overflow: hidden;
@@ -137,13 +137,33 @@
   height: 90vh;
   padding-top: 12px;
   overflow: auto;
-  border-right-style: solid;
+  /* border-right-style: solid;
   border-right-width: 1px;
-  border-right-color: rgb(223, 227, 230);
+  border-right-color: rgb(223, 227, 230); */
 }
+
+.list-box::-webkit-scrollbar {
+  width: 1px;
+}
+
+.list-box::-webkit-scrollbar-track {
+  background: rgb(223, 227, 230);
+}
+
+.list-box::-webkit-scrollbar-button {
+  height: 10px !important;
+}
+
+.list-box::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 50px;
+  height: 10px !important;
+}
+
 .content-box {
   height: 90vh;
   overflow: auto;
+  flex: 1;
 }
 .list-item-title {
   font-family: Roboto-Medium;
