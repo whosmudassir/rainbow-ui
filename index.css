@@ -11,11 +11,12 @@
   --button-hover: rgb(35, 55, 156);
   --main-text: #211f37;
   --sub-text: #14111c;
+  --border: rgb(223, 227, 230);
 }
 
 /* icons */
 .fa-rainbow {
-  color: rgb(63, 94, 251);
+  color: var(--primary);
 }
 
 /* fonts */
@@ -62,14 +63,14 @@
   font-family: Bold;
   font-size: 42px;
   padding-bottom: 20px;
-  color: rgb(36, 36, 36);
+  color: var(--main-text)
   padding-bottom: 10px;
 }
 
 .sub-text {
   font-family: Regular;
   font-size: 22px;
-  color: rgb(58, 58, 58);
+  color: var(--sub-text)
 }
 
 .header-box {
@@ -142,7 +143,6 @@
 }
 .nav-bar {
   padding: 16px 30px;
-
   display: flex;
   position: fixed;
   overflow: hidden;
@@ -168,22 +168,17 @@
   border-right-color: rgb(223, 227, 230); */
 }
 
-.list-box::-webkit-scrollbar {
+*::-webkit-scrollbar {
   width: 1px;
 }
 
-.list-box::-webkit-scrollbar-track {
+*::-webkit-scrollbar-track {
   background: rgb(223, 227, 230);
 }
 
-.list-box::-webkit-scrollbar-button {
-  height: 10px !important;
-}
-
-.list-box::-webkit-scrollbar-thumb {
-  background: red;
+*::-webkit-scrollbar-thumb {
+  background: var(--primary);
   border-radius: 50px;
-  height: 10px !important;
 }
 
 .content-box {
