@@ -4,19 +4,51 @@
   box-sizing: border-box;
 }
 
+*::-webkit-scrollbar {
+  width: 2px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--border);
+  width: 1px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: rgb(172, 172, 172);
+  border-radius: 50px;
+  width:3px !important;
+}
+
 :root {
   --primary: rgb(63, 94, 251);
-  --secondary: ;
+  --secondary:rgba(112, 37, 177, 0.8) ;
   --button: rgb(63, 94, 251);
   --button-hover: rgb(35, 55, 156);
-  --main-text: #211f37;
-  --sub-text: #14111c;
+  --sub-text: #211f37;
+  --main-text:#14111c;
   --border: rgb(223, 227, 230);
+  --black:#14111c;
 }
 
 /* icons */
 .fa-rainbow {
-  color: var(--primary);
+  color: var(--secondary);
+}
+
+.fa-sun, .fa-bars, .fa-github{
+  color:var(--black);
+  font-size: 24px;
+}
+
+.fa-xmark{
+  color:var(--black);
+  font-size: 24px;
+}
+
+.icon-bg{
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
 }
 
 /* fonts */
@@ -135,7 +167,7 @@
 }
 .heading-medium {
   font-family: Bold;
-  font-size: 22px;
+  font-size: 24px;
 }
 .rainbow-logo {
   font-size: 26px;
@@ -152,7 +184,7 @@
   width: 100%;
   flex-direction: row;
   justify-content: space-between;
-  align-items: stretch;
+  align-items: center;
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-bottom-color: rgb(223, 227, 230);
@@ -163,29 +195,25 @@
   height: 90vh;
   padding-top: 12px;
   overflow: auto;
-  /* border-right-style: solid;
+  border-right-style: solid;
   border-right-width: 1px;
-  border-right-color: rgb(223, 227, 230); */
+  border-right-color: rgb(223, 227, 230);
 }
 
-*::-webkit-scrollbar {
-  width: 1px;
-}
-
-*::-webkit-scrollbar-track {
-  background: rgb(223, 227, 230);
-}
-
-*::-webkit-scrollbar-thumb {
-  background: var(--primary);
-  border-radius: 50px;
-}
 
 .content-box {
   height: 90vh;
+  padding:14px 30px;
   overflow: auto;
   flex: 1;
 }
+
+.content-heading{
+  font-size:36px;
+  font-family: Bold;
+  color:var(--main-text)
+}
+
 .list-item-title {
   font-family: Bold;
   padding: 10px;
@@ -214,6 +242,9 @@
 .hamburger-icon {
   display: none;
 }
+
+/* main-content */
+
 
 /* responsive */
 
@@ -279,6 +310,11 @@
   }
 
   /* main hamburger menu*/
+
+  .nav-bar{
+    padding: 16px 20px;
+  }
+
   .list-box-close {
     display: none;
   }
