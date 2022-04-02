@@ -68,13 +68,15 @@
   --main-text:#14111c;
   --sub-text: #211f37;
   --border: rgb(223, 227, 230);
-  --black:#14111c;
+  --icon:#14111c;
+  --white:#FAFAF9;
   --bg:rgb(247, 247, 247);
 }
 
 .dark-theme{
   --sub-text: white;
   --main-text:white;
+  --icon:#FAFAF9;
   --bg:rgb(12, 24, 77);
 }
 
@@ -84,12 +86,12 @@
 }
 
 .fa-sun, .fa-bars, .fa-github, .fa-moon{
-  color:var(--black);
+  color:var(--icon);
   font-size: 24px;
 }
 
 .fa-xmark{
-  color:var(--black);
+  color:var(--icon);
   font-size: 24px;
 }
 
