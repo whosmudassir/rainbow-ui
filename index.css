@@ -19,37 +19,6 @@
   width:3px !important;
 }
 
-:root {
-  --primary: rgb(63, 94, 251);
-  --secondary:rgba(112, 37, 177, 0.8) ;
-  --button: rgb(63, 94, 251);
-  --button-hover: rgb(35, 55, 156);
-  --sub-text: #211f37;
-  --main-text:#14111c;
-  --border: rgb(223, 227, 230);
-  --black:#14111c;
-}
-
-/* icons */
-.fa-rainbow {
-  color: var(--secondary);
-}
-
-.fa-sun, .fa-bars, .fa-github, .fa-moon{
-  color:var(--black);
-  font-size: 24px;
-}
-
-.fa-xmark{
-  color:var(--black);
-  font-size: 24px;
-}
-
-.icon-bg{
-  background-color: transparent;
-  border: transparent;
-  cursor: pointer;
-}
 
 /* fonts */
 @font-face {
@@ -88,6 +57,44 @@
 @font-face {
   font-family: Regular;
   src: url("./assets/fonts/Montserrat-Regular.ttf");
+}
+
+/* theming */
+:root {
+  --primary: rgb(63, 94, 251);
+  --secondary:rgba(112, 37, 177, 0.8) ;
+  --button: rgb(63, 94, 251);
+  --button-hover: rgb(35, 55, 156);
+  --sub-text: #211f37;
+  --main-text:#14111c;
+  --border: rgb(223, 227, 230);
+  --black:#14111c;
+  --bg:tomato;
+}
+
+.dark-theme{
+  --bg:black;
+}
+
+/* icons */
+.fa-rainbow {
+  color: var(--secondary);
+}
+
+.fa-sun, .fa-bars, .fa-github, .fa-moon{
+  color:var(--black);
+  font-size: 24px;
+}
+
+.fa-xmark{
+  color:var(--black);
+  font-size: 24px;
+}
+
+.icon-bg{
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
 }
 
 /* reusable classes */
@@ -131,18 +138,17 @@
 
 .box {
   background-color: rgb(255, 255, 255);
-  /* opacity: 98%; */
   margin: 80px;
   padding: 80px;
   border-radius: 30px;
   text-align: center;
 }
+
 .center-center {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-
   background: rgb(63, 94, 251);
   background: linear-gradient(
     338deg,
@@ -160,10 +166,12 @@
 }
 
 /* main page */
+
 .main-body {
   display: flex;
   flex-direction: row;
   margin-top: 60px;
+  background-color: var(--bg);
 }
 .heading-medium {
   font-family: Bold;
@@ -179,7 +187,7 @@
   position: fixed;
   overflow: hidden;
   top: 0;
-  background-color: #ffff;
+  background-color: var(--bg);
   flex: 1;
   width: 100%;
   flex-direction: row;
