@@ -35,7 +35,7 @@
   color: var(--secondary);
 }
 
-.fa-sun, .fa-bars, .fa-github{
+.fa-sun, .fa-bars, .fa-github, .fa-moon{
   color:var(--black);
   font-size: 24px;
 }
