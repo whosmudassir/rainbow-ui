@@ -12,7 +12,7 @@ triggerHamburger.onclick = function () {
   }
 };
 
-// theme logic
+// theming logic
 const triggerTheme = document.querySelector("#trigger-theme");
 const renderThemeIcon = document.querySelector("#render-theme-icon");
 
@@ -22,6 +22,6 @@ triggerTheme.onclick = function () {
     document.body.classList.remove("dark-theme");
   } else if (renderThemeIcon.className == "fa fa-moon") {
     renderThemeIcon.className = "fa fa-sun";
-    document.body.classList.toggle("dark-theme");
+    document.body.classList.add("dark-theme");
   }
 };

@@ -65,15 +65,17 @@
   --secondary:rgba(112, 37, 177, 0.8) ;
   --button: rgb(63, 94, 251);
   --button-hover: rgb(35, 55, 156);
-  --sub-text: #211f37;
   --main-text:#14111c;
+  --sub-text: #211f37;
   --border: rgb(223, 227, 230);
   --black:#14111c;
-  --bg:tomato;
+  --bg:rgb(247, 247, 247);
 }
 
 .dark-theme{
-  --bg:black;
+  --sub-text: white;
+  --main-text:white;
+  --bg:rgb(12, 24, 77);
 }
 
 /* icons */
