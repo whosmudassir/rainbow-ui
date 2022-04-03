@@ -17,10 +17,12 @@ const triggerTheme = document.querySelector("#trigger-theme");
 const renderThemeIcon = document.querySelector("#render-theme-icon");
 
 triggerTheme.onclick = function () {
+  console.log("dddd");
   if (renderThemeIcon.className == "fa fa-sun") {
     renderThemeIcon.className = "fa fa-moon";
     document.body.classList.remove("dark-theme");
   } else if (renderThemeIcon.className == "fa fa-moon") {
+    console.log("dddd");
     renderThemeIcon.className = "fa fa-sun";
     document.body.classList.add("dark-theme");
   }
