@@ -68,14 +68,16 @@
   --main-text:#14111c;
   --sub-text: #211f37;
   --border: rgb(223, 227, 230);
-  --black:#14111c;
-  --bg:rgb(247, 247, 247);
+  --icon:#14111c;
+  --white:#FAFAF9;
+  --bg:rgb(249, 249, 249);
 }
 
 .dark-theme{
   --sub-text: white;
   --main-text:white;
-  --bg:rgb(12, 24, 77);
+  --icon:#FAFAF9;
+  --bg:rgb(2, 18, 46);
 }
 
 /* icons */
@@ -84,12 +86,12 @@
 }
 
 .fa-sun, .fa-bars, .fa-github, .fa-moon{
-  color:var(--black);
+  color:var(--icon);
   font-size: 24px;
 }
 
 .fa-xmark{
-  color:var(--black);
+  color:var(--icon);
   font-size: 24px;
 }
 
@@ -177,6 +179,7 @@
 }
 .heading-medium {
   font-family: Bold;
+  color:var(--main-text);
   font-size: 24px;
 }
 .rainbow-logo {
@@ -205,9 +208,9 @@
   height: 90vh;
   padding-top: 12px;
   overflow: auto;
-  border-right-style: solid;
+  /* border-right-style: solid;
   border-right-width: 1px;
-  border-right-color: rgb(223, 227, 230);
+  border-right-color: rgb(223, 227, 230); */
 }
 
 
@@ -229,6 +232,7 @@
   padding: 10px;
   padding-left: 40px;
   font-size: 14px;
+  color:var(--main-text);
   text-transform: uppercase;
 }
 
@@ -237,7 +241,7 @@
   padding: 10px;
   padding-left: 40px;
   font-size: 14px;
-  color: ;
+  color:var(--sub-text);
 }
 .list-item:hover {
   background-color: rgba(112, 37, 177, 0.2);
