@@ -270,7 +270,32 @@
   display: none;
 }
 
-/* main-content */
+/* footer */
+
+.footer {
+  padding: 16px 30px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  text-align: center;
+  background-color: var(--bg);
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: var(--sub-text);
+  font-family: Medium;
+  cursor: pointer;
+}
+
+.footer-text:hover {
+  text-decoration: underline;
+}
 
 /* responsive */
 
