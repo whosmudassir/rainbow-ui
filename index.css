@@ -18,7 +18,7 @@ a {
 }
 
 *::-webkit-scrollbar-thumb {
-  background: rgb(172, 172, 172);
+  background: var(--border-thumb);
   border-radius: 50px;
   width: 3px !important;
 }
@@ -71,6 +71,7 @@ a {
   --main-text: #14111c;
   --sub-text: #211f37;
   --border: rgb(223, 227, 230);
+  --border-thumb: rgb(172, 172, 172);
   --icon: #14111c;
   --white: #fafaf9;
   --bg: rgb(249, 249, 249);
@@ -84,6 +85,8 @@ a {
   --button: rgba(159, 71, 236, 0.8);
   --icon: #fafaf9;
   --bg: #0f172a;
+  --border: rgb(40, 53, 71);
+  --border-thumb: rgb(117, 117, 117);
   --logo: rgba(192, 119, 255, 0.8);
 }
 
@@ -206,7 +209,7 @@ a {
   align-items: center;
   border-bottom-style: solid;
   border-bottom-width: 1px;
-  border-bottom-color: rgb(223, 227, 230);
+  border-bottom-color: var(--border);
 }
 
 .mini-nav-bar {
