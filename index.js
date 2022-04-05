@@ -12,18 +12,29 @@ triggerHamburger.onclick = function () {
   }
 };
 
-// theming logic
+// theming logic using localStorage
 const triggerTheme = document.querySelector("#trigger-theme");
 const renderThemeIcon = document.querySelector("#render-theme-icon");
+const currentTheme = localStorage.getItem("theme");
 
-triggerTheme.onclick = function () {
-  console.log("dddd");
+if (currentTheme == "darkMode") {
+  renderThemeIcon.className = "fa fa-sun";
+  document.body.classList.add("dark-theme");
+} else {
+  renderThemeIcon.className = "fa fa-moon";
+  document.body.classList.remove("dark-theme");
+}
+
+const setTheme = () => {
   if (renderThemeIcon.className == "fa fa-sun") {
     renderThemeIcon.className = "fa fa-moon";
+    localStorage.setItem("theme", "lightMode");
     document.body.classList.remove("dark-theme");
   } else if (renderThemeIcon.className == "fa fa-moon") {
-    console.log("dddd");
     renderThemeIcon.className = "fa fa-sun";
+    localStorage.setItem("theme", "darkMode");
     document.body.classList.add("dark-theme");
   }
 };
+
+triggerTheme.addEventListener("click", setTheme);
