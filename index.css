@@ -66,8 +66,8 @@ a {
 :root {
   --primary: rgb(63, 94, 251);
   --secondary: rgba(112, 37, 177, 0.8);
-  --button: rgb(63, 94, 251);
-  --button-hover: rgb(35, 55, 156);
+  --button-hover: rgba(88, 20, 148, 0.8);
+  --button: rgba(122, 29, 202, 0.8);
   --main-text: #14111c;
   --sub-text: #211f37;
   --border: rgb(223, 227, 230);
@@ -80,6 +80,8 @@ a {
 .dark-theme {
   --sub-text: white;
   --main-text: white;
+  --button-hover: rgba(125, 37, 202, 0.8);
+  --button: rgba(159, 71, 236, 0.8);
   --icon: #fafaf9;
   --bg: #0f172a;
   --logo: rgba(192, 119, 255, 0.8);
@@ -131,16 +133,15 @@ a {
 .primary-btn {
   padding: 10px 12px;
   border-radius: 5px;
-
   border: none;
-  background-color: rgb(63, 94, 251);
+  background-color: var(--button);
   color: #ffff;
   transition-timing-function: ease;
 }
 
 .primary-btn:hover {
   cursor: pointer;
-  background-color: rgb(35, 55, 156);
+  background-color: var(--button-hover);
   color: #ffff;
   transition: 0.5s ease;
 }
