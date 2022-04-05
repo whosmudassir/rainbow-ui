@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 *::-webkit-scrollbar {
   width: 2px;
 }
@@ -182,6 +186,7 @@
   font-family: Bold;
   color: var(--main-text);
   font-size: 24px;
+  text-decoration: none;
 }
 .rainbow-logo {
   font-size: 26px;
