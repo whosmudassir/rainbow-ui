@@ -306,6 +306,31 @@ a {
   text-decoration: underline;
 }
 
+/* code snippet */
+.code-snippet {
+  border-radius: 8px;
+  border: 0;
+  width: 60%;
+  height: 20%;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.code-snippet::-webkit-scrollbar {
+  width: 0px;
+}
+
+.code-snippet::-webkit-scrollbar-track {
+  background: var(--border);
+  width: 0px;
+}
+
+.code-snippet::-webkit-scrollbar-thumb {
+  background: var(--border-thumb);
+  border-radius: 0px;
+  width: 3px !important;
+}
+
 /* responsive */
 
 @media (max-width: 1024px) {
