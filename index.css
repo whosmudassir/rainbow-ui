@@ -257,12 +257,14 @@ a {
   font-size: 16px;
   font-family: Regular;
   margin-bottom: 28px;
+  color: var(--sub-text);
 }
 
 .content-file-name {
   font-size: 16px;
   font-family: Medium;
   margin-bottom: 24px;
+  color: var(--sub-text);
 }
 
 .list-item-title {
@@ -281,6 +283,11 @@ a {
   font-size: 14px;
   color: var(--sub-text);
 }
+
+.active-list-item {
+  background-color: rgba(112, 37, 177, 0.36);
+}
+
 .list-item:hover {
   background-color: rgba(112, 37, 177, 0.2);
   cursor: pointer;
@@ -332,8 +339,8 @@ a {
   /* border-radius: 50px; */
   border: 0;
   margin: 0;
-  width: 625px;
-  align-items: flex-start;
+  width: 480px;
+
   /* height: 100%; */
 
   /* overflow: hidden; */
