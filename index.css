@@ -446,6 +446,13 @@ a {
   }
 
   .content-box {
-    padding: 14px;
+    padding: 30px 14px;
+  }
+  .content-heading {
+    font-size: 30px;
+    margin-bottom: 24px;
+  }
+  .content-body {
+    font-size: 16px;
   }
 }
