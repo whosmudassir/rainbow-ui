@@ -335,11 +335,19 @@ a {
   align-items: flex-start;
 } */
 
-.code-snippet {
+.code-snippet-light {
   /* border-radius: 50px; */
   border: 0;
   margin: 0;
   width: 480px;
+  display: none;
+}
+.code-snippet-dark {
+  /* border-radius: 50px; */
+  border: 0;
+  margin: 0;
+  width: 480px;
+  /* display: none; */
 }
 .jsx-3326892330 section {
 }
