@@ -17,8 +17,6 @@ const triggerTheme = document.querySelector("#trigger-theme");
 const renderThemeIcon = document.querySelector("#render-theme-icon");
 const currentTheme = localStorage.getItem("theme");
 
-const codeSnippetLight = document.querySelector("#code-snippet-light");
-
 if (currentTheme == "darkMode") {
   renderThemeIcon.className = "fa fa-sun";
   document.body.classList.add("dark-theme");
@@ -34,14 +32,10 @@ const setTheme = () => {
     //persistant theming with local storage
     localStorage.setItem("theme", "lightMode");
     document.body.classList.remove("dark-theme");
-    //code snippet light theme toggle
-    codeSnippetLight.classList.remove("hide");
-    codeSnippetLight.classList.add("code-snippet-light");
   } else if (renderThemeIcon.className == "fa fa-moon") {
     renderThemeIcon.className = "fa fa-sun";
     localStorage.setItem("theme", "darkMode");
     document.body.classList.add("dark-theme");
-    codeSnippetLight.classList.add("hide");
   }
 };
 
