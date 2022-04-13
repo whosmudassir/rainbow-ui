@@ -329,28 +329,11 @@ a {
   text-decoration: underline;
 }
 
-/* code snippet */
-/* .code-box {
-  width: 80%;
-  align-items: flex-start;
-} */
-
-.code-snippet-light {
+.code-snippet {
   /* border-radius: 50px; */
   border: 0;
   margin: 0;
   width: 480px;
-  /* display: none; */
-}
-.code-snippet-dark {
-  /* border-radius: 50px; */
-  border: 0;
-  margin: 0;
-  width: 480px;
-  /* display: none; */
-}
-.hide {
-  display: none;
 }
 
 .code-snippet::-webkit-scrollbar {
