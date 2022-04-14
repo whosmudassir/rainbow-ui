@@ -26,40 +26,40 @@ a {
 /* fonts */
 @font-face {
   font-family: ExtraLight;
-  src: url("./assets/fonts/Montserrat-ExtraLight.ttf");
+  src: url("../../../assets/fonts/Montserrat-ExtraLight.ttf");
 }
 @font-face {
   font-family: Light;
-  src: url("./assets/fonts/Montserrat-Light.ttf");
+  src: url("../../../assets/fonts/Montserrat-Light.ttf");
 }
 @font-face {
   font-family: Thin;
-  src: url("./assets/fonts/Montserrat-Thin.ttf");
+  src: url("../../../assets/fonts/Montserrat-Thin.ttf");
 }
 
 @font-face {
   font-family: Black;
-  src: url("./assets/fonts/Montserrat-Black.ttf");
+  src: url("../../../assets/fonts/Montserrat-Black.ttf");
 }
 @font-face {
   font-family: ExtraBold;
-  src: url("./assets/fonts/Montserrat-ExtraBold.ttf");
+  src: url("../../../assets/fonts/Montserrat-ExtraBold.ttf");
 }
 @font-face {
   font-family: SemiBold;
-  src: url("./assets/fonts/Montserrat-SemiBold.ttf");
+  src: url("../../../assets/fonts/Montserrat-SemiBold.ttf");
 }
 @font-face {
   font-family: Bold;
-  src: url("./assets/fonts/Montserrat-Bold.ttf");
+  src: url("../../../assets/fonts/Montserrat-Bold.ttf");
 }
 @font-face {
   font-family: Medium;
-  src: url("./assets/fonts/Montserrat-Medium.ttf");
+  src: url("../../../assets/fonts/Montserrat-Medium.ttf");
 }
 @font-face {
   font-family: Regular;
-  src: url("./assets/fonts/Montserrat-Regular.ttf");
+  src: url("../../../assets/fonts/Montserrat-Regular.ttf");
 }
 
 /* theming */
