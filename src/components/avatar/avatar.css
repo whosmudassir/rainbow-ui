@@ -12,20 +12,20 @@
 
 .avatar-lg {
   border-radius: 50%;
-  width: 34px;
-  height: 34px;
+  width: 48px;
+  height: 48px;
 }
 
 .avatar-xl {
   border-radius: 50%;
-  width: 34px;
-  height: 34px;
+  width: 64px;
+  height: 64px;
 }
 
 .avatar-2xl {
   border-radius: 50%;
-  width: 34px;
-  height: 34px;
+  width: 96px;
+  height: 96px;
 }
 
 .avatar-sm {
