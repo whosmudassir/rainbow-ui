@@ -304,6 +304,16 @@ a {
   display: none;
 }
 
+.content-image {
+  background-color: #0c1021;
+  padding: 32px 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
 /* footer */
 
 .footer {
@@ -336,6 +346,14 @@ a {
   border: 0;
   margin: 0;
   width: 480px;
+}
+
+.code-snippet-large {
+  /* border-radius: 50px; */
+  border: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .code-snippet::-webkit-scrollbar {
