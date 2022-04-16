@@ -85,6 +85,7 @@ a {
   --logo: rgba(122, 29, 202, 0.8);
   --code-bg: white;
   --code-color: #14111c;
+  --content-image-bg: white;
 }
 
 .dark-theme {
@@ -97,6 +98,9 @@ a {
   --border: rgb(40, 53, 71);
   --border-thumb: rgb(117, 117, 117);
   --logo: rgba(192, 119, 255, 0.8);
+  --code-bg: #111724;
+  --code-color: white;
+  --content-image-bg: #171e2e;
 }
 
 /* icons */
@@ -312,7 +316,8 @@ a {
 }
 
 .content-image {
-  background-color: #0c1021;
+  background-color: var(--content-image-bg);
+  border-radius: 8px;
   padding: 32px 20px;
   width: 100%;
   display: flex;
@@ -356,7 +361,7 @@ a {
 }
 
 .code-snippet {
-  border-radius: 5px;
+  border-radius: 8px;
   /* border: 0; */
   margin: 0;
   /* width: 480px; */
