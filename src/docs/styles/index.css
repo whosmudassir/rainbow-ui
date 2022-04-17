@@ -179,7 +179,7 @@ a {
   align-items: center;
   text-align: center;
   padding: 30px;
-  /* height: 100vh; */
+  height: 100vh;
   background: var(--bg);
 }
 
@@ -196,7 +196,9 @@ a {
 .main-body {
   display: flex;
   flex-direction: row;
+  overflow: hidden;
   margin-top: 40px;
+  height: 93.6vh;
   background-color: var(--bg);
 }
 .heading-medium {
@@ -241,8 +243,8 @@ a {
 
 .list-box {
   width: 250px;
-  height: 90vh;
-  padding-top: 30px;
+  height: 93.6vh;
+  padding-top: 36px;
   overflow: auto;
   /* border-right-style: solid;
   border-right-width: 1px;
