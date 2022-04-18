@@ -86,6 +86,7 @@ a {
   --code-bg: white;
   --code-color: #14111c;
   --content-image-bg: white;
+  --code-style: purple;
 }
 
 .dark-theme {
@@ -101,6 +102,7 @@ a {
   --code-bg: #111724;
   --code-color: white;
   --content-image-bg: #171e2e;
+  --code-style: aqua;
 }
 
 /* icons */
@@ -369,10 +371,14 @@ a {
   /* width: 480px; */
   font-family: Code;
   font-size: 13px;
-  padding: 50px 20px;
+  padding: 40px 20px;
   width: 80%;
   color: var(--code-color);
   background-color: var(--code-bg);
+}
+
+.code-style {
+  color: var(--code-style);
 }
 
 /* responsive */
