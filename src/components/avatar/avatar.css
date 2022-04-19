@@ -34,3 +34,10 @@
   width: 34px;
   height: 34px;
 }
+
+.active {
+  background-color: green;
+  padding: 5px;
+  border-radius: 50%;
+  position: absolute;
+}

@@ -86,7 +86,7 @@ a {
   --code-bg: white;
   --code-color: #14111c;
   --content-image-bg: white;
-  --code-style: purple;
+  --code-style: tomato;
 }
 
 .dark-theme {
@@ -284,6 +284,12 @@ a {
   color: var(--sub-text);
 }
 
+.example-name {
+  font-size: 20px;
+  font-family: Medium;
+  margin-bottom: 12px;
+  color: var(--sub-text);
+}
 .list-item-title {
   font-family: Bold;
   padding: 10px;
