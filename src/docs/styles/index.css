@@ -1,5 +1,6 @@
 @import url("/src/components/avatar/avatar.css");
 @import url("/src/components/image/image.css");
+@import url("/src/components/card/card.css");
 
 * {
   padding: 0;
