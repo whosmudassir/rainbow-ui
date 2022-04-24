@@ -1,0 +1,31 @@
+.post-wrapper {
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: rgb(231, 231, 231);
+}
+
+.post-head {
+  display: flex;
+  align-items: center;
+}
+.post-details {
+  padding-left: 8px;
+  line-height: 22px;
+}
+.post-username {
+}
+.post-time {
+}
+.post-body {
+}
+
+.post-text-wrapper {
+  padding: 8px 0px;
+}
+
+.post-text {
+}
+
+.post-image {
+}
