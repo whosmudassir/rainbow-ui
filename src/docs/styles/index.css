@@ -389,6 +389,20 @@ a {
   color: var(--code-style);
 }
 
+/* post */
+.post-wrapper {
+  background-color: #ffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0);
+}
+
+.post-username {
+  font-family: Medium;
+}
+.post-time,
+.post-text {
+  font-family: Regular;
+}
+
 /* responsive */
 
 @media (max-width: 1024px) {
