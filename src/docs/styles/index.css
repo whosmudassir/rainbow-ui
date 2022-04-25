@@ -89,6 +89,8 @@ a {
   --code-color: #14111c;
   --content-image-bg: white;
   --code-style: tomato;
+  --post-bg: #171e2e;
+  --post-text: #fafaf9;
 }
 
 .dark-theme {
@@ -105,6 +107,8 @@ a {
   --code-color: white;
   --content-image-bg: #171e2e;
   --code-style: aqua;
+  --post-bg: white;
+  --post-text: #14111c;
 }
 
 /* icons */
@@ -391,16 +395,17 @@ a {
 
 /* post */
 .post-wrapper {
-  background-color: #ffff;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0);
+  background-color: var(--post-bg);
 }
 
 .post-username {
   font-family: Medium;
+  color: var(--post-text);
 }
 .post-time,
 .post-text {
   font-family: Regular;
+  color: var(--post-text);
 }
 
 /* responsive */
