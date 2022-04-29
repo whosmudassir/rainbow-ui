@@ -403,11 +403,16 @@ a {
   color: var(--post-text);
 }
 .post-time,
-.post-text {
+.post-text,
+.card-price {
   font-family: Regular;
   color: var(--post-text);
 }
 
+.card-name {
+  font-family: Medium;
+  color: var(--post-text);
+}
 /* shopping card */
 .card-wrapper {
   background-color: var(--post-bg);
