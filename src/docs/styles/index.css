@@ -408,6 +408,11 @@ a {
   color: var(--post-text);
 }
 
+/* shopping card */
+.card-wrapper {
+  background-color: var(--post-bg);
+}
+
 /* responsive */
 
 @media (max-width: 1024px) {
