@@ -12,7 +12,7 @@
   transition: 0.5s ease;
 }
 
-.primary-btn-text {
+.btn-text {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,4 +20,11 @@
   text-align: center;
   font-size: 16px;
   gap: 6px;
+}
+
+.secondary-btn {
+  padding: 10px 12px;
+  border-radius: 5px;
+  background-color: transparent;
+  transition-timing-function: ease;
 }
