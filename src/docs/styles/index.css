@@ -1,6 +1,7 @@
 @import url("/src/components/avatar/avatar.css");
 @import url("/src/components/image/image.css");
 @import url("/src/components/card/card.css");
+@import url("/src/components/button/button.css");
 
 * {
   padding: 0;
@@ -155,29 +156,24 @@ a {
 }
 
 .primary-btn {
-  padding: 10px 12px;
-  border-radius: 5px;
-  border: none;
   background-color: var(--button);
-  color: #ffff;
-  transition-timing-function: ease;
 }
-
-.primary-btn:hover {
-  cursor: pointer;
-  background-color: var(--button-hover);
-  color: #ffff;
-  transition: 0.5s ease;
-}
-
 .primary-btn-text {
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: Medium;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   gap: 6px;
+}
+.primary-btn:hover {
+  background-color: var(--button-hover);
+}
+
+.secondary-btn {
+  border: 1px solid var(--main-text);
+  color: var(--main-text);
 }
 
 .center-center {
@@ -254,9 +250,6 @@ a {
   height: 93.6vh;
   padding-top: 36px;
   overflow: auto;
-  /* border-right-style: solid;
-  border-right-width: 1px;
-  border-right-color: rgb(223, 227, 230); */
 }
 
 .content-box {
