@@ -46,10 +46,11 @@
 
 .card-banner {
   position: absolute;
-  background-color: red;
   z-index: 1;
   top: 20px;
   left: 0;
+  padding: 2px 10px;
+  font-size: 12px;
 }
 
 .card-name {
@@ -65,4 +66,10 @@
   flex-direction: column;
   justify-content: center;
   height: 28%;
+  padding: 0px 14px;
+}
+
+.card-btn-wrapper {
+  display: flex;
+  justify-content: flex-end;
 }
