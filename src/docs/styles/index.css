@@ -411,6 +411,12 @@ a {
   background-color: var(--post-bg);
 }
 
+.card-banner {
+  background-color: var(--post-text);
+  color: var(--post-bg);
+  font-family: Medium;
+}
+
 /* responsive */
 
 @media (max-width: 1024px) {
