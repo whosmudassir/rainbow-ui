@@ -2,6 +2,7 @@
 @import url("/src/components/image/image.css");
 @import url("/src/components/card/card.css");
 @import url("/src/components/button/button.css");
+@import url("/src/components/modal/modal.css");
 
 * {
   padding: 0;
