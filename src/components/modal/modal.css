@@ -1,1 +1,22 @@
+.modal {
+  background-color: white;
+  width: 400px;
+  border-radius: 8px;
+}
 
+.modal-head {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 12px;
+  border-bottom: 1px solid grey;
+}
+
+.modal-body {
+  padding: 8px 12px;
+}
+
+.modal-foot {
+  display: flex;
+  justify-content: flex-end;
+  padding: 12px;
+}
