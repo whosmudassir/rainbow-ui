@@ -4,6 +4,7 @@
 @import url("/src/components/button/button.css");
 @import url("/src/components/modal/modal.css");
 @import url("/src/components/icons/icons.css");
+@import url("/src/components/navigationBar/navigationBar.css");
 
 * {
   padding: 0;
