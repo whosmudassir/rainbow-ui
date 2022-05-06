@@ -1,0 +1,16 @@
+.nav-bar-wrapper {
+  padding: 16px 30px;
+  display: flex;
+  /* position: fixed; */
+  overflow: hidden;
+  /* top: 0; */
+  background-color: var(--bg);
+  flex: 1;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: var(--border);
+}
