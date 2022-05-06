@@ -1,0 +1,9 @@
+.icon-wrapper {
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 24px;
+}
