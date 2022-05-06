@@ -35,10 +35,10 @@
             </a>
           </div>
           <div style="display: flex; gap: 15px">
-            <button class="icon-bg" id="trigger-theme">
+            <button class="icon-wrapper" id="trigger-theme">
               <i class="fa fa-moon" id="render-theme-icon"></i>
             </button>
-            <button class="icon-bg">
+            <button class="icon-wrapper">
               <i class="fa fa-github"></i>
             </button>
           </div>
@@ -158,25 +158,65 @@
           <div class="content-box">
             <p class="content-heading">Icons</p>
             <p class="content-body">
-              We recommend <a href="https://fontawesome.com/">fontawesome</a>,
-              they give access to use free icons, once you create your kit and
+              We recommend
+              <a class="link" target="_blank" href="https://fontawesome.com/"
+                >fontawesome</a
+              >, they give access to free icons, once you create your kit and
               copy your kit's code into the &lthead> of each template or page in
-              your project where you want to use Font Awesome
+              your project, you can use their icons.
             </p>
-            <p class="example-name">Responsive Image</p>
+            <p class="example-name">Examples</p>
             <div class="content-image">
-              <img
-                class="responsive-img"
-                src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/addf1b141366595.6252ba1dc68d0.jpg"
-              />
+              <button class="icon-wrapper">
+                <i class="fa-solid fa-bars icon"></i>
+              </button>
+              <button class="icon-wrapper">
+                <i class="fa fa-sun icon"></i>
+              </button>
+              <button class="icon-wrapper">
+                <i class="fa fa-moon icon"></i>
+              </button>
+              <button class="icon-wrapper">
+                <i class="fa-brands fa-facebook icon"></i>
+              </button>
+              <button class="icon-wrapper">
+                <i class="fa-brands fa-twitter icon"></i>
+              </button>
+              <button class="icon-wrapper">
+                <i class="fa fa-github icon"></i>
+              </button>
             </div>
             <div class="code-snippet">
-              &ltdiv class="style-for-parent-container" <br />
-              &ltimg
-              <span class="code-style">class="responsive-img"</span>
-              src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/addf1b141366595.6252ba1dc68d0.jpg"/>
-              <br />
-              &lt/div&gt
+              &ltbutton
+              <span class="code-style">class="icon-wrapper"</span>><br />
+              &lti class="fa-solid fa-bars
+              <span class="code-style">icon</span>">&lt/i><br />
+              &lt/button><br /><br />
+              &ltbutton
+              <span class="code-style">class="icon-wrapper"</span>><br />
+              &lti class="fa fa-sun
+              <span class="code-style">icon</span>">&lt/i><br />
+              &lt/button><br /><br />
+              &ltbutton
+              <span class="code-style">class="icon-wrapper"</span>><br />
+              &lti class="fa fa-moon
+              <span class="code-style">icon</span>">&lt/i><br />
+              &lt/button><br /><br />
+              &ltbutton
+              <span class="code-style">class="icon-wrapper"</span>><br />
+              &lti class="fa-brands fa-facebook
+              <span class="code-style">icon</span>">&lt/i><br />
+              &lt/button><br /><br />
+              &ltbutton
+              <span class="code-style">class="icon-wrapper"</span>><br />
+              &lti class="fa-brands fa-twitter
+              <span class="code-style">icon</span>">&lt/i><br />
+              &lt/button><br /><br />
+              &ltbutton
+              <span class="code-style">class="icon-wrapper"</span>><br />
+              &lti class="fa fa-github
+              <span class="code-style">icon</span>">&lt/i><br />
+              &lt/button>
             </div>
           </div>
         </div>
