@@ -334,6 +334,10 @@ a {
   margin-bottom: 30px;
 }
 
+.nav-bar-wrapper {
+  background-color: var(--bg);
+}
+
 /* footer */
 
 .footer {
