@@ -1,9 +1,7 @@
 .nav-bar-wrapper {
   padding: 16px 30px;
   display: flex;
-  /* position: fixed; */
   overflow: hidden;
-  /* top: 0; */
   background-color: rgb(241, 241, 241);
   flex: 1;
   width: 100%;
