@@ -480,6 +480,13 @@ a {
     padding: 10px 0px;
     width: 100vw;
   }
+
+  .content-image {
+    width: 100%;
+  }
+  .code-snippet {
+    width: 100%;
+  }
 }
 
 /* mobile */
@@ -523,7 +530,7 @@ a {
   }
 
   .code-snippet {
-    width: 340px;
+    width: 100%;
   }
 
   .content-box {
