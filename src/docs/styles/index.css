@@ -376,7 +376,7 @@ a {
   text-decoration: underline;
 }
 
-.code-snippet {
+.code-snippet-wrapper {
   border-radius: 8px;
   /* border: 0; */
   margin: 0;
@@ -386,7 +386,11 @@ a {
   padding: 40px 20px;
   width: 80%;
   color: var(--code-color);
-  background-color: var(--code-bg);
+  background-color: var(--content-image-bg);
+}
+
+.code-snippet {
+  overflow: auto;
 }
 
 .code-style {
@@ -484,7 +488,7 @@ a {
   .content-image {
     width: 100%;
   }
-  .code-snippet {
+  .code-snippet-wrapper {
     width: 100%;
   }
 }
@@ -529,7 +533,7 @@ a {
     height: 100%; */
   }
 
-  .code-snippet {
+  .code-snippet-wrapper {
     width: 100%;
   }
 
