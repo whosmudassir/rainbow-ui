@@ -1,0 +1,12 @@
+.outlined-input-wrapper {
+  border: 1px solid red;
+}
+
+.outlined-input {
+  padding: 30px;
+  margin: 10px;
+}
+
+/* input:focus {
+  outline: none;
+} */

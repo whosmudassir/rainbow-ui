@@ -5,6 +5,7 @@
 @import url("/src/components/modal/modal.css");
 @import url("/src/components/icons/icons.css");
 @import url("/src/components/navigationBar/navigationBar.css");
+@import url("/src/components/input/input.css");
 
 * {
   padding: 0;
