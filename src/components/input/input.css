@@ -1,10 +1,8 @@
-.outlined-input-wrapper {
-  border: 1px solid red;
-}
-
 .outlined-input {
-  padding: 30px;
+  padding: 25px 15px;
   margin: 10px;
+  border-radius: 8px;
+  border: 1px solid silver;
 }
 
 /* input:focus {
