@@ -157,19 +157,29 @@
               appear in forms and dialogs.
             </p>
             <p class="example-name">Basic</p>
-            <div class="content-image">
-              <div class="outlined-input-wrapper">
-                <input class="outlined-input" placeholder="Enter text" />
-              </div>
+            <div
+              class="content-image"
+              style="display: flex; flex-direction: column"
+            >
+              <input class="basic-input" type="text" placeholder="Basic" />
+              <input class="filled-input" type="text" placeholder="Filled" />
+              <input
+                class="outlined-input"
+                type="text"
+                placeholder="Outlined"
+              />
             </div>
             <div class="code-snippet-wrapper">
               <div class="code-snippet">
-                &ltdiv class="style-for-parent-container" <br />
-                &ltimg
-                <span class="code-style">class="responsive-img"</span>
-                src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/addf1b141366595.6252ba1dc68d0.jpg"/>
-                <br />
-                &lt/div&gt
+                &ltinput
+                <span class="code-style">class="basic-input" type="text" </span
+                >placeholder="Basic" /><br />
+                &ltinput
+                <span class="code-style">class="filled-input" type="text" </span
+                >placeholder="Filled" /> <br />&ltinput
+                <span class="code-style"
+                  >class="outlined-input" type="text" </span
+                >placeholder="Outlined" />
               </div>
             </div>
           </div>
