@@ -1,15 +1,18 @@
 .badge-wrapper {
   position: relative;
-  background: #ffffff;
+  padding: 10px;
 }
 
-.badge {
-  background-color: #4aa723;
+.notification {
+  background-color: rgb(255, 69, 58);
   padding: 0px 6px;
-  border-radius: 50%;
+  border-radius: 100%;
   position: absolute;
-  bottom: 6px;
-  right: 2;
-
+  right: 0px;
+  top: 5px;
   z-index: 1;
+}
+
+.notification-text {
+  color: #ffffff;
 }
