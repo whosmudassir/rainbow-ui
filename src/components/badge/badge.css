@@ -1,0 +1,15 @@
+.badge-wrapper {
+  position: relative;
+  background: #ffffff;
+}
+
+.badge {
+  background-color: #4aa723;
+  padding: 0px 6px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 6px;
+  right: 2;
+
+  z-index: 1;
+}
