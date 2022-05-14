@@ -6,12 +6,12 @@
 .notification {
   background-color: rgb(255, 69, 58);
   padding: 0px 6px;
-  border-top-left-radius: 50% 50%;
+  border-top-left-radius: 50% 40%;
   border-top-right-radius: 50% 50%;
   border-bottom-right-radius: 50% 50%;
   border-bottom-left-radius: 50% 50%;
   position: absolute;
-  right: 0px;
+  right: -7px;
   top: 5px;
   z-index: 1;
 }
