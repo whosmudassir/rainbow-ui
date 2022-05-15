@@ -378,7 +378,7 @@ a {
 }
 
 .link {
-  color: white;
+  color: var(--logo);
   text-decoration: underline;
 }
 
