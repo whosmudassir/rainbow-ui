@@ -2,7 +2,8 @@
   background-color: rgb(255, 255, 255);
   min-width: 400px;
   border-radius: 8px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 
 .modal-head {
@@ -26,7 +27,13 @@
 .modal-foot {
   display: flex;
   justify-content: flex-end;
+  gap: 10px;
   padding: 12px;
+}
+
+.secondary-btn {
+  border: 1px solid #14111c;
+  color: #14111c;
 }
 
 .close-btn {
@@ -37,6 +44,19 @@
 .outlined-input {
   padding: 8px 5px !important;
   border-radius: 4px !important;
+}
+
+.modal-head-text {
+  font-size: 16px;
+}
+
+.modal-text {
+  font-size: 14px;
+}
+
+.secondary-btn,
+.primary-btn {
+  font-size: 14px !important;
 }
 
 @media (max-width: 768px) {
