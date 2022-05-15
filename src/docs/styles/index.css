@@ -433,6 +433,17 @@ a {
   font-family: Medium;
 }
 
+/* modal */
+.modal-head-text {
+  font-family: Bold;
+  font-size: 16px;
+}
+
+.modal-text {
+  font-family: Regular;
+  font-size: 14px;
+}
+
 /* responsive */
 
 @media (max-width: 1024px) {
