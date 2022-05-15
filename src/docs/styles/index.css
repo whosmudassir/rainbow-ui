@@ -7,11 +7,13 @@
 @import url("/src/components/navigationBar/navigationBar.css");
 @import url("/src/components/input/input.css");
 @import url("/src/components/badge/badge.css");
+@import url("/src/components/alert/alert.css");
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Regular;
 }
 
 a {

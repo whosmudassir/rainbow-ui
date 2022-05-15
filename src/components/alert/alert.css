@@ -1,0 +1,51 @@
+.error-alert,
+.info-alert,
+.success-alert,
+.warning-alert {
+  display: flex;
+  flex-grow: 1;
+  justify-content: left;
+  text-align: center;
+  padding: 14px 16px;
+  gap: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.error-alert {
+  background-color: #fdeded;
+}
+
+.warning-alert {
+  background-color: #fff4e5;
+}
+
+.info-alert {
+  background-color: #e5f6fd;
+}
+
+.success-alert {
+  background-color: #edf7ed;
+}
+.fa-circle-exclamation,
+.fa-triangle-exclamation,
+.fa-circle-info,
+.fa-circle-check {
+  font-size: 20px;
+}
+
+.fa-circle-exclamation {
+  color: #f06360;
+}
+
+.fa-triangle-exclamation {
+  color: #ffca7e;
+}
+
+.fa-circle-info {
+  color: #4dc3f7;
+}
+
+.fa-circle-check {
+  color: #77c27a;
+}
