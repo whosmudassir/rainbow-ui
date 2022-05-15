@@ -1,0 +1,36 @@
+.rating input {
+  display: none;
+}
+
+/* to display stars */
+.rating label:before {
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating label {
+  color: #ddd;
+  float: right;
+}
+
+.rating fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.rating fieldset > input:checked ~ label,
+.rating fieldset:not(:checked) > label:hover,
+.rating fieldset:not(:checked) > label:hover ~ label {
+  color: #ffd700;
+}
+
+.rating fieldset > input:checked + label:hover,
+.rating fieldset > input:checked ~ label:hover,
+.rating fieldset > label:hover ~ input:checked ~ label,
+.rating fieldset > input:checked ~ label:hover ~ label {
+  color: #ffed85;
+}
