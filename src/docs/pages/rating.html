@@ -88,7 +88,7 @@
                   </ul></a
                 >
                 <a href="./modal.html">
-                  <ul class="list-item active-list-item">
+                  <ul class="list-item">
                     Modal
                   </ul></a
                 >
@@ -122,80 +122,65 @@
                     Input
                   </ul></a
                 >
+
                 <a href="./rating.html"
-                  ><ul class="list-item">
+                  ><ul class="list-item active-list-item">
                     Rating
+                  </ul></a
+                >
+                <a href=""
+                  ><ul class="list-item">
+                    Toast
                   </ul></a
                 >
               </div>
             </div>
           </div>
           <div class="content-box">
-            <p class="content-heading">Modal</p>
+            <p class="content-heading">Rating</p>
             <p class="content-body">
-              A Modal is an overlay on the primary window or another dialog
-              window. Content behind the modal dialog remains inert and users
-              cannot interact with it.
+              Ratings provide insight regarding others' opinions and
+              experiences, and can allow the user to submit a rating of their
+              own.
             </p>
-            <p class="example-name">Example</p>
+            <p class="example-name">Basic Rating</p>
             <div class="content-image">
-              <div class="modal-wrapper">
-                <div class="modal">
-                  <div class="modal-head">
-                    <p class="modal-head-text">Sign up</p>
-                    <button class="icon-wrapper">
-                      <i class="fa-solid fa-xmark close-btn"></i>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <p class="modal-text">Name</p>
-                    <input class="outlined-input" type="text" />
-                    <p class="modal-text">Email</p>
-                    <input class="outlined-input" type="text" />
-                    <p class="modal-text">Password</p>
-                    <input class="outlined-input" type="password" />
-                  </div>
-                  <div class="modal-foot">
-                    <button
-                      class="secondary-btn"
-                      style="border: 1px solid #14111c; color: #14111c"
-                    >
-                      Cancel
-                    </button>
-                    <button class="primary-btn">Submit</button>
-                  </div>
-                </div>
+              <div class="rating">
+                <fieldset class="stars">
+                  <input type="radio" name="stars" id="star-1" value="1" />
+                  <label for="star-1"></label>
+                  <input type="radio" name="stars" id="star-2" value="2" />
+                  <label for="star-2"></label>
+                  <input type="radio" name="stars" id="star-3" value="3" />
+                  <label for="star-3"></label>
+                  <input type="radio" name="stars" id="star-4" value="4" />
+                  <label for="star-4"></label>
+                  <input type="radio" name="stars" id="star-5" value="5" />
+                  <label for="star-5"></label>
+                </fieldset>
               </div>
             </div>
             <div class="code-snippet-wrapper">
               <div class="code-snippet">
-                &ltdiv
-                <span class="code-style">class="modal-wrapper"</span>><br />
-                &ltdiv <span class="code-style">class="modal"</span>><br />
-                &ltdiv <span class="code-style">class="modal-head"</span>><br />
-                &ltp
-                <span class="code-style">class="modal-head-text"</span>>Sign
-                up&lt/p><br />
-                &ltbutton class="icon-wrapper"><br />
-                &lti class="fa-solid fa-xmark
-                <span class="code-style">close-btn</span>">&lt/i><br />
-                &lt/button><br />
-                &lt/div><br />
-                &ltdiv <span class="code-style">class="modal-body"</span>><br />
-                &ltp
-                <span class="code-style">class="modal-text"</span
-                >>Name&lt/p><br />
-                &ltinput class="outlined-input" type="text" /><br />
-                &ltp class="modal-text">Email&lt/p><br />
-                &ltinput class="outlined-input" type="text" /><br />
-                &ltp class="modal-text">Password&lt/p><br />
-                &ltinput class="outlined-input" type="password" /><br />
-                &lt/div><br />
-                &ltdiv <span class="code-style">class="modal-foot"</span>><br />
-                &ltbutton class="secondary-btn">Cancel&lt/button><br />
-                &ltbutton class="primary-btn">Submit&lt/button><br />
-                &lt/div><br />
-                &lt/div><br />
+                &ltdiv <span class="code-style">class="rating"</span>><br />
+                &nbsp; &ltfieldset
+                <span class="code-style">class="stars"</span>><br />
+                &nbsp; &nbsp; &ltinput type="radio" name="stars" id="star-1"
+                value="1" /><br />
+                &nbsp; &nbsp; &ltlabel for="star-1">&lt/label><br />
+                &nbsp; &nbsp; &ltinput type="radio" name="stars" id="star-2"
+                value="2" /><br />
+                &nbsp; &nbsp; &ltlabel for="star-2">&lt/label><br />
+                &nbsp; &nbsp; &ltinput type="radio" name="stars" id="star-3"
+                value="3" /><br />
+                &nbsp; &nbsp; &ltlabel for="star-3">&lt/label><br />
+                &nbsp; &nbsp; &ltinput type="radio" name="stars" id="star-4"
+                value="4" /><br />
+                &nbsp; &nbsp; &ltlabel for="star-4">&lt/label><br />
+                &nbsp; &nbsp; &ltinput type="radio" name="stars" id="star-5"
+                value="5" /><br />
+                &nbsp; &nbsp; &ltlabel for="star-5">&lt/label><br />
+                &nbsp; &lt/fieldset><br />
                 &lt/div>
               </div>
             </div>
