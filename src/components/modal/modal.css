@@ -1,7 +1,6 @@
 .modal {
-  background-color: white;
-  max-width: 400px;
-  min-width: 200px;
+  background-color: rgb(238, 238, 238);
+  min-width: 400px;
   border-radius: 8px;
 }
 
@@ -20,4 +19,21 @@
   display: flex;
   justify-content: flex-end;
   padding: 12px;
+}
+
+.close-btn {
+  color: black !important;
+  font-size: 20px !important;
+}
+
+@media (max-width: 768px) {
+  .modal {
+    min-width: 340px;
+  }
+}
+
+@media (max-width: 426px) {
+  .modal {
+    min-width: 210px;
+  }
 }
