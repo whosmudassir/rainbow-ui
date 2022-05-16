@@ -253,6 +253,9 @@ a {
   height: 93.6vh;
   padding-top: 36px;
   overflow: auto;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: var(--border);
 }
 
 .content-box {
